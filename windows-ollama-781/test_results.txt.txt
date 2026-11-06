@@ -1,0 +1,30 @@
+Windows + Ollama installation testing completed successfully.
+
+**Environment:**
+- OS: Windows
+- Docker Desktop with WSL 2
+- Git for Windows
+- LLM: Ollama (`qwen2.5:3b`)
+- Embedding model: `nomic-embed-text`
+
+**Verification results:**
+- Docker services started successfully.
+- Dashboard accessible at `http://localhost:8000/office`.
+- Ollama chat connection test passed.
+- Embedding connection test passed (768 dimensions).
+- PDF upload and ingestion successful (5 chunks).
+- RAG query returned a generated answer with source attribution (`pdh.pdf`).
+- Chat API returned HTTP 200.
+
+**Result:** The Windows + Ollama workflow is working successfully end to end.
+
+I've captured screenshots and a short recording as supporting evidence.
+
+**Response-time observations:**
+
+- Initial response: Noticeable delay during the first request, likely due to model initialization/loading.
+- Subsequent responses: The workflow completed successfully, but I haven't recorded precise response times yet.
+- Model: Ollama (`qwen2.5:3b`).
+
+Thank you for the opportunity to test this!
+
